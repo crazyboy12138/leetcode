@@ -1,4 +1,3 @@
-import org.junit.platform.commons.util.CollectionUtils;
 
 import java.util.*;
 
@@ -9,7 +8,6 @@ import java.util.*;
  * @date 2020-01-09
  */
 public class Test {
-    @org.junit.jupiter.api.Test
     public void test1() {
         new Test().primeNumber();
     }

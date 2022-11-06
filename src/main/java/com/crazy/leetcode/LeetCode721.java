@@ -1,7 +1,5 @@
 package com.crazy.leetcode;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
 
 import java.util.*;
 
@@ -19,9 +17,9 @@ public class LeetCode721 {
                 "[\"David\",\"David4@m.co\",\"David5@m.co\"],\n" +
                 "[\"David\",\"David2@m.co\",\"David3@m.co\"],\n" +
                 "[\"David\",\"David1@m.co\",\"David2@m.co\"]]";
-        Object parse = JSON.parse(str);
-        List<List<String>> account = (List<List<String>>)parse;
-        System.out.println(new LeetCode721().accountsMerge(account));
+//        Object parse = JSON.parse(str);
+//        List<List<String>> account = (List<List<String>>)parse;
+//        System.out.println(new LeetCode721().accountsMerge(account));
     }
 
 
